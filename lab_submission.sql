@@ -39,3 +39,4 @@ SELECT o.OrderId, o.Order_Date, c.customerName, p.productName, o.Quantity_Ordere
 FROM order o
 JOIN customer c ON o.customerId = c.customerId
 JOIN product p ON o.ProductName = p.productName;
+
